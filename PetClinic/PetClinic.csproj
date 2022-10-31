@@ -204,6 +204,7 @@
     <Content Include="Views\Staff\StaffPanel.Master" />
     <Content Include="Views\Customer\CustomerPanel.Master" />
     <Content Include="Views\Authentication\RegisterMaster.Master" />
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
