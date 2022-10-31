@@ -163,6 +163,8 @@
     <Content Include="Libraries\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Libraries\FontAwsome\font-awesome.min.css" />
     <Content Include="Libraries\JQuery\jquery.min.js" />
+    <Content Include="Models\Database\PetClinic.mdf" />
+    <Content Include="Models\Database\PetClinic_log.ldf" />
     <Content Include="packages.config" />
     <Content Include="Public\CSS\LoginFonts.css" />
     <Content Include="Public\CSS\Login.css" />
