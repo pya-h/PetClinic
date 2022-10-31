@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CustomerPanel.master.cs" Inherits="PetClinic.Views.Customer.CustomerPanel" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="../../Libraries/Bootstrap/css/bootstrap.min.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a id="anchorFullname" runat="server" class="navbar-brand mx-4" href="#">PetClinic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Reserve.aspx">Reserve</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Authentication/Login.aspx">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <form id="form1" runat="server">
+        <div class="p-4">
+            <asp:ContentPlaceHolder ID="CustomerPanelContainer" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

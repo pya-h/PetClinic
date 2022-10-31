@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RegisterMaster.Master.cs" Inherits="PetClinic.Views.Authentication.RegisterContainer" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>PetClinic | Register</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+     <link rel="stylesheet" href="../../Libraries/Bootstrap/css/bootstrap.min.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="RegisterContainer" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
